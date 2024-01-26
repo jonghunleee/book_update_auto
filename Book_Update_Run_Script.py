@@ -46,8 +46,8 @@ while(i):
 
         # 로그인 하기
         id = input("ID: ")
-        #pw = getpass.getpass("Password: ")
-        pw = input("Password: ")
+        pw = getpass.getpass("Password: ")
+        #pw = input("Password: ")
 
         login = {
             "id": id,
